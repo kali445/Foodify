@@ -21,7 +21,7 @@ export const clearResults = () => {
  * acc: 18 / acc + cur.length = 25 / newTitle = ['pasta', 'with', 'tamato']
 */
 
-const limitRecipeTitle = (title, limit = 17) => {
+export const limitRecipeTitle = (title, limit = 17) => {
     const newTitle = [];
 
     if (title.length > limit) {
